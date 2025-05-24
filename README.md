@@ -1,6 +1,6 @@
 # 🚲 Analisis Bike Sharing Dataset
 
-Repositori ini berisi notebook analisis data dari dataset **Bike Sharing** yang diambil dari Kaggle. Tujuan dari proyek ini adalah melakukan eksplorasi dan analisis terhadap data peminjaman sepeda berdasarkan waktu (harian dan per jam), serta melihat faktor-faktor yang mempengaruhi jumlah peminjaman.
+Repositori ini berisi notebook analisis data dari dataset **Bike Sharing** yang diambil dari Kaggle. Tujuan dari proyek ini adalah melakukan eksplorasi dan analisis terhadap data peminjaman sepeda berdasarkan waktu (harian dan per jam), serta melihat faktor-faktor yang memengaruhi jumlah peminjaman.
 
 ---
 
@@ -9,16 +9,17 @@ Repositori ini berisi notebook analisis data dari dataset **Bike Sharing** yang 
 Dataset diperoleh dari Kaggle:  
 🔗 [Bike Sharing Dataset – Kaggle](https://www.kaggle.com/datasets/lakshith25pathi/bike-sharing-dataset)
 
-**Catatan:** File `day.csv` dan `hour.csv` telah disertakan langsung dalam repositori ini untuk memudahkan pengguna menjalankan notebook tanpa perlu mengunduh data secara terpisah.
+> **Catatan:** File `day.csv` dan `hour.csv` telah disertakan langsung dalam repositori ini untuk memudahkan pengguna menjalankan notebook tanpa perlu mengunduh data secara terpisah.
 
 ---
 
 ## 🛠️ Tools yang Digunakan
 
-- Google Colab
-- Python 3
-- Pandas
-- Matplotlib / Seaborn (jika digunakan untuk visualisasi)
+- Google Colab  
+- Python 3  
+- Pandas  
+- Matplotlib / Seaborn (untuk visualisasi)  
+- Streamlit (untuk dashboard)
 
 ---
 
@@ -26,17 +27,17 @@ Dataset diperoleh dari Kaggle:
 
 Analisis-Bike-Sharing-Dataset/
 
-├── Dataset
+├── Dataset/
 
-    └── day.csv
-  
-    └── hour.csv
-  
+│ ├── day.csv
+
+│ └── hour.csv
+
 ├── Proyek_Analisis_Data.ipynb
 
-├── requirements.txt
-
 ├── Bike_Dashboard.py
+
+├── requirements.txt
 
 └── README.md
 
@@ -71,10 +72,7 @@ Dashboard dibangun menggunakan **Streamlit** dan memiliki fitur:
 
 ### 1. Clone repositori:
 
-```bash
-git clone https://github.com/Yuliana1453/Analisis-Bike-Sharing-Dataset.git
-cd Analisis-Bike-Sharing-Dataset
----
+    git clone https://github.com/Yuliana1453/Analisis-Bike-Sharing-Dataset.git cd Analisis-Bike-Sharing-Dataset
 
 ## 📊 Output
 
@@ -84,13 +82,22 @@ Notebook ini mencakup:
 - Analisis statistik sederhana
 - Visualisasi tren peminjaman sepeda
 
+
+### 2. Install dependensi:
+        pip install streamlit pandas matplotlib seaborn
+
+### 3. Jalankan aplikasi:
+        streamlit run Bike_Dashboard.py
+
 ---
 
 ## 🧑‍💻 Kontributor
 
 - [Yuliana1453](https://github.com/Yuliana1453)
 
+
 ---
+
 
 ## ⚠️ Lisensi
 
